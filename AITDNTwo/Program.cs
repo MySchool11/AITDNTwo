@@ -1,4 +1,11 @@
 ﻿using System;
+
+/// <summary>
+/// A program which creates an instance of a gradebook and populates it with some results
+/// The solution also has a unit test project added to it (right click on solution --> add --> new project --> test --> unit test project (.NET framework)
+/// Then in the test project add a reference to (using) this project (AITDNTwo) so the tests can access the code
+/// </summary>
+
 /*
  * In order to use the speech synthesis, follow these steps
  * 1)   Uncomment all the code that has been commented out
@@ -29,9 +36,9 @@ namespace AITDNTwo
             const string nameOfGradeBook = nameof(book);
 
             Console.WriteLine("The average grade from the gradebook named " + nameOfGradeBook + " is " + stats.AverageGrade);
-            // voice.Speak("The average grade from the grade book named " + nameOfGradeBook + " is " + stats.AverageGrade);
+            //// voice.Speak("The average grade from the grade book named " + nameOfGradeBook + " is " + stats.AverageGrade);
             Console.WriteLine("The highest grade from the gradebook named  " + nameOfGradeBook + " is " + stats.HighestGrade);
-            // voice.Speak("The highest grade from the grade book named  " + nameOfGradeBook + " is " + stats.HighestGrade);
+            //// voice.Speak("The highest grade from the grade book named  " + nameOfGradeBook + " is " + stats.HighestGrade);
             Console.WriteLine("The lowest grade from the gradebook named " + nameOfGradeBook + " is " + stats.LowestGrade);
             // voice.Speak("The lowest grade from the grade book named " + nameOfGradeBook + " is " + stats.LowestGrade);
 

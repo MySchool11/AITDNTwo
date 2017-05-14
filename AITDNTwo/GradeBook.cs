@@ -6,6 +6,7 @@ namespace AITDNTwo
     public class GradeBook
     {
         private readonly List<float> _grades;
+        public string Name;
 
         public GradeBook() // Constructor
         {

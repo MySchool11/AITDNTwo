@@ -1,12 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AITDNTwo;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;     // Adds reference to the UnitTesting namespace so the functions can be accessed
+using AITDNTwo;                                         // Adds a reference to the project being tested so the code can be accessed by the tests. This also needs to be added in the project references by right clicking on the references section and choosing AITDNTwo there
 
 namespace Grades.Tests
 {
-    [TestClass]
+    [TestClass] // In unit test classes the class must be started with [TestClass] reference
     public class GradeBookTests
     {
-        [TestMethod]
+        [TestMethod] // The same applies for methods in a test class
         public void CalculatesHighestGrade()
         {
             var book = new GradeBook();
