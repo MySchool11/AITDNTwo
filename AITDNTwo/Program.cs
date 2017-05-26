@@ -1,26 +1,41 @@
 ﻿using System;
-
-/// <summary>
-/// A program which creates an instance of a gradebook and populates it with some results
-/// The solution also has a unit test project added to it (right click on solution --> add --> new project --> test --> unit test project (.NET framework)
-/// Then in the test project add a reference to (using) this project (AITDNTwo) so the tests can access the code
-/// </summary>
+// using System.Speech.Synthesis;
 
 /*
  * In order to use the speech synthesis, follow these steps
  * 1)   Uncomment all the code that has been commented out
  *      between using System.Speech.Synthesis; and // voice.speak("Goodbye");
+ *      also comment out the using System.Speech.Synthesis; declaration at the start of the program.
  * 2)   Right click on the project name (AITDNTwo) in the Solution Explorer
  * 3)   Select "Add Reference" from the menu
  * 4)   Type "speech" into the search box
  * 5)   Check the box next to "System.Speech"
  */
-// using System.Speech.Synthesis;
 
 namespace AITDNTwo
 {
     public class Program
     {
+
+        /// <summary>
+        /// A program which creates an instance of a gradebook and populates it with some results
+        /// The solution also has a unit test project added to it (right click on solution --> add --> new project --> test --> unit test project (.NET framework)
+        /// Then in the test project add a reference to (using) this project (AITDNTwo) so the tests can access the code
+        /// </summary>
+        /// <author>
+        /// Samuel Bancroft (c) 2017
+        /// </author>
+        /// <code>
+        /// Made up of two projects
+        /// AIDTNTwo containing three main files
+        /// GradeBooks.cs => A class declaration
+        /// GradeStatistics.cs => A class declaration
+        /// Program.cs = > the main file
+        /// Grades.Tests containing two main files
+        /// TypeTests.cs => A collection of Unit Tests
+        /// GradeBookTests.cs => A collection of Unit Tests
+        /// </code>
+
         private static void Main()
         {
             // var voice = new SpeechSynthesizer();
